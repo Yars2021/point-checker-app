@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Info-title {
+  color: dodgerblue;
+}
+
+.Info-line {
+  color: dodgerblue;
+  font-size: 15px;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  color: limegreen;
+  text-decoration: underline;
+}
+
+.Input-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.Input-row {
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#graphContainer {
+  min-height: 480px;
+  min-width: 480px;
+}
