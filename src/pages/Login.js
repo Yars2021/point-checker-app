@@ -18,10 +18,8 @@ export class Login extends React.Component {
     }
 
     clear = () => {
-        this.setState({
-            login: undefined,
-            password: undefined
-        });
+        document.getElementById("login").value = "";
+        document.getElementById("password").value = "";
     }
 
     switchToRegister = () => {
