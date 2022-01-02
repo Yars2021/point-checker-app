@@ -48,7 +48,7 @@ export class Info extends React.Component {
                         <Alert severity="success">
                             <AlertTitle>
                                 <a
-                                    href="https://github.com/Yars2021/paint-checker-app"
+                                    href="https://github.com/Yars2021/point-checker-app"
                                     target="_blank"
                                     rel="noreferrer"
                                 >Github link</a>
